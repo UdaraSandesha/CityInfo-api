@@ -1,0 +1,340 @@
+2021-01-30 09:38:28.4329|INFO|CityInfo.API.Program|Initializing application...
+2021-01-30 09:38:29.8812|INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\udara\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-01-30 09:38:30.2623|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 DEBUG http://localhost:1028/  0
+2021-01-30 09:38:30.2623|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:1028/  
+2021-01-30 09:38:30.3063|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 44.6237ms 200 
+2021-01-30 09:38:30.4191|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 157.6399ms 404 text/plain
+2021-01-30 09:38:30.5075|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:1028/favicon.ico  
+2021-01-30 09:38:30.5075|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 2.398ms 404 text/plain
+2021-01-30 09:38:41.6640|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 DELETE http://localhost:1028/api/cities/1/pointsofinterest/1  
+2021-01-30 09:38:41.6957|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "DeletePointOfInterest", controller = "PointOfInterest"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult DeletePointOfInterest(Int32, Int32) on controller CityInfo.API.Controllers.PointOfInterestController (CityInfo.API).
+2021-01-30 09:38:41.7160|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method CityInfo.API.Controllers.PointOfInterestController.DeletePointOfInterest (CityInfo.API) - Validation state: Valid
+2021-01-30 09:38:41.7272|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method CityInfo.API.Controllers.PointOfInterestController.DeletePointOfInterest (CityInfo.API), returned result Microsoft.AspNetCore.Mvc.NoContentResult in 6.9045ms.
+2021-01-30 09:38:41.7272|INFO|Microsoft.AspNetCore.Mvc.StatusCodeResult|Executing HttpStatusCodeResult, setting HTTP status code 204
+2021-01-30 09:38:41.7272|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action CityInfo.API.Controllers.PointOfInterestController.DeletePointOfInterest (CityInfo.API) in 39.9477ms
+2021-01-30 09:38:41.7444|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 80.5563ms 204 
+2021-01-30 17:29:56.2706|INFO|CityInfo.API.Program|Initializing application...
+2021-01-30 17:29:57.1378|INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\udara\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-01-30 17:29:57.6197|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 DEBUG http://localhost:1028/  0
+2021-01-30 17:29:57.6197|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:1028/  
+2021-01-30 17:29:57.6596|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 41.5756ms 200 
+2021-01-30 17:29:57.7585|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 141.0032ms 404 text/plain
+2021-01-30 17:29:57.8506|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:1028/favicon.ico  
+2021-01-30 17:29:57.8569|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 8.2288ms 404 text/plain
+2021-01-30 17:30:08.8631|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 DELETE http://localhost:1028/api/cities/1/pointsofinterest/1  
+2021-01-30 17:30:08.9015|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "DeletePointOfInterest", controller = "PointOfInterest"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult DeletePointOfInterest(Int32, Int32) on controller CityInfo.API.Controllers.PointOfInterestController (CityInfo.API).
+2021-01-30 17:30:08.9389|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method CityInfo.API.Controllers.PointOfInterestController.DeletePointOfInterest (CityInfo.API) - Validation state: Valid
+2021-01-30 17:30:08.9541|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method CityInfo.API.Controllers.PointOfInterestController.DeletePointOfInterest (CityInfo.API), returned result Microsoft.AspNetCore.Mvc.NoContentResult in 8.5111ms.
+2021-01-30 17:30:08.9625|INFO|Microsoft.AspNetCore.Mvc.StatusCodeResult|Executing HttpStatusCodeResult, setting HTTP status code 204
+2021-01-30 17:30:08.9625|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action CityInfo.API.Controllers.PointOfInterestController.DeletePointOfInterest (CityInfo.API) in 47.1935ms
+2021-01-30 17:30:08.9625|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 108.4544ms 204 
+2021-01-30 17:31:16.9086|INFO|CityInfo.API.Program|Initializing application...
+2021-01-30 17:31:17.6494|INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\udara\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-01-30 17:31:17.8846|FATAL|Microsoft.AspNetCore.Hosting.Internal.WebHost|Application startup exception
+2021-01-30 17:31:18.0923|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:1028/  
+2021-01-30 17:31:18.0923|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 DEBUG http://localhost:1028/  0
+2021-01-30 17:31:18.1140|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 23.7207ms 500 
+2021-01-30 17:31:18.1140|ERROR|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HM652R05OQGC", Request id "0HM652R05OQGC:00000001": An unhandled exception was thrown by the application.
+2021-01-30 17:31:18.1255|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 33.798ms 500 text/html; charset=utf-8
+2021-01-30 17:31:31.9194|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 DELETE http://localhost:1028/api/cities/1/pointsofinterest/1  
+2021-01-30 17:31:31.9194|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 2.9269ms 500 text/html; charset=utf-8
+2021-01-30 17:33:01.3578|INFO|CityInfo.API.Program|Initializing application...
+2021-01-30 17:33:02.1441|INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\udara\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-01-30 17:33:02.3944|FATAL|Microsoft.AspNetCore.Hosting.Internal.WebHost|Application startup exception
+2021-01-30 17:33:02.6552|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:1028/  
+2021-01-30 17:33:02.6552|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 DEBUG http://localhost:1028/  0
+2021-01-30 17:33:02.6708|ERROR|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HM652RVATS6O", Request id "0HM652RVATS6O:00000001": An unhandled exception was thrown by the application.
+2021-01-30 17:33:02.6708|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 21.85ms 500 
+2021-01-30 17:33:02.6708|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 23.7249ms 500 text/html; charset=utf-8
+2021-01-30 17:33:08.7727|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 DELETE http://localhost:1028/api/cities/1/pointsofinterest/1  
+2021-01-30 17:33:08.7786|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 4.44ms 500 text/html; charset=utf-8
+2021-01-30 17:33:24.0664|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:1028/api/cities/1/pointsofinterest/1  
+2021-01-30 17:33:24.0714|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 1.8609ms 500 text/html; charset=utf-8
+2021-01-30 17:33:41.3626|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:1028/api/cities/1/pointsofinterest/1  
+2021-01-30 17:33:41.3626|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 4.4697ms 500 text/html; charset=utf-8
+2021-01-30 17:34:56.4391|INFO|CityInfo.API.Program|Initializing application...
+2021-01-30 17:34:57.3043|INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\udara\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-01-30 17:34:57.5136|FATAL|Microsoft.AspNetCore.Hosting.Internal.WebHost|Application startup exception
+2021-01-30 17:34:57.6571|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:1028/  
+2021-01-30 17:34:57.6571|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 DEBUG http://localhost:1028/  0
+2021-01-30 17:34:57.6732|ERROR|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HM652T1JNV5R", Request id "0HM652T1JNV5R:00000001": An unhandled exception was thrown by the application.
+2021-01-30 17:34:57.6732|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 20.8861ms 500 text/html; charset=utf-8
+2021-01-30 17:34:57.6732|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 22.8079ms 500 text/html; charset=utf-8
+2021-01-30 17:34:59.5467|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:1028/api/cities/1/pointsofinterest/1  
+2021-01-30 17:34:59.5467|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 3.2041ms 500 text/html; charset=utf-8
+2021-01-30 17:35:01.0435|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:1028/api/cities/1/pointsofinterest/1  
+2021-01-30 17:35:01.0435|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 2.8002ms 500 text/html; charset=utf-8
+2021-01-30 17:36:22.2957|INFO|CityInfo.API.Program|Initializing application...
+2021-01-30 17:36:23.2264|INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\udara\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-01-30 17:36:23.4413|FATAL|Microsoft.AspNetCore.Hosting.Internal.WebHost|Application startup exception
+2021-01-30 17:36:23.6547|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:1028/  
+2021-01-30 17:36:23.6547|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 DEBUG http://localhost:1028/  0
+2021-01-30 17:36:23.6967|ERROR|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HM652TR7NSC7", Request id "0HM652TR7NSC7:00000001": An unhandled exception was thrown by the application.
+2021-01-30 17:36:23.6967|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 54.7787ms 500 
+2021-01-30 17:36:23.7125|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 60.6953ms 500 text/html; charset=utf-8
+2021-01-30 17:36:29.8081|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:1028/api/cities/1/pointsofinterest/1  
+2021-01-30 17:36:29.8081|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 4.7971ms 500 text/html; charset=utf-8
+2021-01-30 17:36:58.8152|INFO|CityInfo.API.Program|Initializing application...
+2021-01-30 17:36:59.7847|INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\udara\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-01-30 17:37:00.3820|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:1028/  
+2021-01-30 17:37:00.3820|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 DEBUG http://localhost:1028/  0
+2021-01-30 17:37:00.4188|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 37.6608ms 200 
+2021-01-30 17:37:00.5181|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 138.6647ms 404 text/plain
+2021-01-30 17:37:00.5934|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:1028/favicon.ico  
+2021-01-30 17:37:00.5934|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 4.6571ms 404 text/plain
+2021-01-30 17:37:04.5715|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:1028/api/cities/1/pointsofinterest/1  
+2021-01-30 17:37:04.6030|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "GetPointOfInterest", controller = "PointOfInterest"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetPointOfInterest(Int32, Int32) on controller CityInfo.API.Controllers.PointOfInterestController (CityInfo.API).
+2021-01-30 17:37:04.6247|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method CityInfo.API.Controllers.PointOfInterestController.GetPointOfInterest (CityInfo.API) - Validation state: Valid
+2021-01-30 17:37:04.6353|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method CityInfo.API.Controllers.PointOfInterestController.GetPointOfInterest (CityInfo.API), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 2.4305ms.
+2021-01-30 17:37:04.6353|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing ObjectResult, writing value of type 'CityInfo.API.Models.PointOfInterestDto'.
+2021-01-30 17:37:04.6988|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action CityInfo.API.Controllers.PointOfInterestController.GetPointOfInterest (CityInfo.API) in 88.3103ms
+2021-01-30 17:37:04.6988|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 131.3962ms 200 application/json; charset=utf-8
+2021-01-30 17:37:27.3832|INFO|CityInfo.API.Program|Initializing application...
+2021-01-30 17:37:28.2050|INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\udara\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-01-30 17:37:28.4034|FATAL|Microsoft.AspNetCore.Hosting.Internal.WebHost|Application startup exception
+2021-01-30 17:37:28.7931|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:1028/  
+2021-01-30 17:37:28.7931|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 DEBUG http://localhost:1028/  0
+2021-01-30 17:37:28.8127|ERROR|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HM652UEKN0HH", Request id "0HM652UEKN0HH:00000001": An unhandled exception was thrown by the application.
+2021-01-30 17:37:28.8127|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 25.1254ms 500 text/html; charset=utf-8
+2021-01-30 17:37:28.8208|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 29.6951ms 500 
+2021-01-30 17:37:33.3935|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:1028/api/cities/1/pointsofinterest/1  
+2021-01-30 17:37:33.3935|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 2.0916ms 500 text/html; charset=utf-8
+2021-01-30 17:53:40.7279|INFO|CityInfo.API.Program|Initializing application...
+2021-01-30 17:53:41.7595|INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\udara\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-01-30 17:53:42.0062|FATAL|Microsoft.AspNetCore.Hosting.Internal.WebHost|Application startup exception
+2021-01-30 17:53:42.2030|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 DEBUG http://localhost:1028/  0
+2021-01-30 17:53:42.2030|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:1028/  
+2021-01-30 17:53:42.2214|ERROR|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HM6537GO6367", Request id "0HM6537GO6367:00000001": An unhandled exception was thrown by the application.
+2021-01-30 17:53:42.2214|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 22.5582ms 500 
+2021-01-30 17:53:42.2285|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 27.3038ms 500 text/html; charset=utf-8
+2021-01-30 17:53:44.8446|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:1028/api/cities/1/pointsofinterest/1  
+2021-01-30 17:53:44.8446|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 3.0842ms 500 text/html; charset=utf-8
+2021-01-30 17:54:27.4281|INFO|CityInfo.API.Program|Initializing application...
+2021-01-30 17:54:28.3319|INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\udara\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-01-30 17:54:28.6350|FATAL|Microsoft.AspNetCore.Hosting.Internal.WebHost|Application startup exception
+2021-01-30 17:54:28.8411|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 DEBUG http://localhost:1028/  0
+2021-01-30 17:54:28.8411|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:1028/  
+2021-01-30 17:54:28.8583|ERROR|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HM6537UKUJB2", Request id "0HM6537UKUJB2:00000001": An unhandled exception was thrown by the application.
+2021-01-30 17:54:28.8583|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 24.4969ms 500 
+2021-01-30 17:54:28.8583|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 26.3307ms 500 text/html; charset=utf-8
+2021-01-30 17:54:41.8731|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:1028/api/cities/1/pointsofinterest/1  
+2021-01-30 17:54:41.8731|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 2.5298ms 500 text/html; charset=utf-8
+2021-01-30 17:59:23.5499|INFO|CityInfo.API.Program|Initializing application...
+2021-01-30 17:59:24.3971|INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\udara\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-01-30 17:59:24.6044|FATAL|Microsoft.AspNetCore.Hosting.Internal.WebHost|Application startup exception
+2021-01-30 17:59:25.0262|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 DEBUG http://localhost:1028/  0
+2021-01-30 17:59:25.0262|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:1028/  
+2021-01-30 17:59:25.0434|ERROR|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HM653AMSTB8T", Request id "0HM653AMSTB8T:00000001": An unhandled exception was thrown by the application.
+2021-01-30 17:59:25.0434|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 22.0244ms 500 text/html; charset=utf-8
+2021-01-30 17:59:25.0434|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 24.865ms 500 
+2021-01-30 17:59:29.3317|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:1028/api/cities/1/pointsofinterest/1  
+2021-01-30 17:59:29.3317|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 3.6464ms 500 text/html; charset=utf-8
+2021-01-30 17:59:31.6432|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:1028/api/cities/1/pointsofinterest/1  
+2021-01-30 17:59:31.6432|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 2.4756ms 500 text/html; charset=utf-8
+2021-01-30 17:59:33.5781|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:1028/api/cities/1/pointsofinterest/1  
+2021-01-30 17:59:33.5781|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 5.4127ms 500 text/html; charset=utf-8
+2021-01-30 17:59:34.2179|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:1028/api/cities/1/pointsofinterest/1  
+2021-01-30 17:59:34.2179|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 7.2393ms 500 text/html; charset=utf-8
+2021-01-30 17:59:34.5228|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:1028/api/cities/1/pointsofinterest/1  
+2021-01-30 17:59:34.5465|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 20.8619ms 500 text/html; charset=utf-8
+2021-01-30 18:02:11.4386|INFO|CityInfo.API.Program|Initializing application...
+2021-01-30 18:02:20.3668|INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\udara\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-01-30 18:03:40.7532|FATAL|Microsoft.AspNetCore.Hosting.Internal.WebHost|Application startup exception
+2021-01-30 18:03:41.0450|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 DEBUG http://localhost:1028/  0
+2021-01-30 18:03:41.0450|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:1028/  
+2021-01-30 18:03:41.0638|ERROR|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HM653D377AF3", Request id "0HM653D377AF3:00000001": An unhandled exception was thrown by the application.
+2021-01-30 18:03:41.0638|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 24.2598ms 500 
+2021-01-30 18:03:41.0638|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 26.9716ms 500 
+2021-01-30 18:03:41.1918|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:1028/favicon.ico  
+2021-01-30 18:03:41.1918|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 2.1177ms 500 text/html; charset=utf-8
+2021-01-30 18:03:55.6104|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:1028/api/cities/1/pointsofinterest/1  
+2021-01-30 18:03:55.6104|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 2.5208ms 500 text/html; charset=utf-8
+2021-01-30 18:03:58.9896|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:1028/api/cities/1/pointsofinterest/1  
+2021-01-30 18:03:58.9929|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 2.7667ms 500 text/html; charset=utf-8
+2021-01-30 18:03:59.3842|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:1028/api/cities/1/pointsofinterest/1  
+2021-01-30 18:03:59.3842|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 4.674ms 500 text/html; charset=utf-8
+2021-01-30 18:04:01.1282|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:1028/api/cities/1/pointsofinterest/1  
+2021-01-30 18:04:01.1370|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 4.0452ms 500 text/html; charset=utf-8
+2021-01-30 18:04:01.9555|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:1028/api/cities/1/pointsofinterest/1  
+2021-01-30 18:04:01.9555|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 2.8857ms 500 text/html; charset=utf-8
+2021-01-30 18:04:02.9346|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:1028/api/cities/1/pointsofinterest/1  
+2021-01-30 18:04:02.9346|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 2.5837ms 500 text/html; charset=utf-8
+2021-01-30 18:04:03.6634|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:1028/api/cities/1/pointsofinterest/1  
+2021-01-30 18:04:03.6654|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 2.8449ms 500 text/html; charset=utf-8
+2021-01-30 18:04:04.7968|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:1028/api/cities/1/pointsofinterest/1  
+2021-01-30 18:04:04.7968|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 2.7423ms 500 text/html; charset=utf-8
+2021-01-30 18:16:05.9749|INFO|CityInfo.API.Program|Initializing application...
+2021-01-30 18:16:07.0572|INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\udara\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-01-30 18:16:07.3309|FATAL|Microsoft.AspNetCore.Hosting.Internal.WebHost|Application startup exception
+2021-01-30 18:16:07.6270|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 DEBUG http://localhost:1028/  0
+2021-01-30 18:16:07.6270|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:1028/  
+2021-01-30 18:16:07.6446|ERROR|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HM653K1N5BK1", Request id "0HM653K1N5BK1:00000001": An unhandled exception was thrown by the application.
+2021-01-30 18:16:07.6446|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 22.506ms 500 text/html; charset=utf-8
+2021-01-30 18:16:07.6513|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 25.4795ms 500 
+2021-01-30 18:16:07.7561|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:1028/favicon.ico  
+2021-01-30 18:16:07.7561|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 2.5628ms 500 text/html; charset=utf-8
+2021-01-30 18:16:22.5332|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:1028/api/cities/1/pointsofinterest/1  
+2021-01-30 18:16:22.5332|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 2.8969ms 500 text/html; charset=utf-8
+2021-01-30 18:24:48.7479|INFO|CityInfo.API.Program|Initializing application...
+2021-01-30 18:24:49.5648|INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\udara\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-01-30 18:28:10.7868|INFO|CityInfo.API.Program|Initializing application...
+2021-01-30 18:28:11.5384|INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\udara\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-01-30 18:28:11.8012|FATAL|Microsoft.AspNetCore.Hosting.Internal.WebHost|Application startup exception
+2021-01-30 18:28:12.1357|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:1028/  
+2021-01-30 18:28:12.1357|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 DEBUG http://localhost:1028/  0
+2021-01-30 18:28:12.1556|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 22.0647ms 500 text/html; charset=utf-8
+2021-01-30 18:28:12.1556|ERROR|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HM653QPKCSOK", Request id "0HM653QPKCSOK:00000001": An unhandled exception was thrown by the application.
+2021-01-30 18:28:12.1659|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 30.3335ms 500 text/html; charset=utf-8
+2021-01-30 18:28:12.2615|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:1028/favicon.ico  
+2021-01-30 18:28:12.2615|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 4.1036ms 500 text/html; charset=utf-8
+2021-01-30 18:28:42.8102|INFO|CityInfo.API.Program|Initializing application...
+2021-01-30 18:28:43.5806|INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\udara\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-01-30 18:28:44.0303|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:1028/  
+2021-01-30 18:28:44.0303|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 DEBUG http://localhost:1028/  0
+2021-01-30 18:28:44.1017|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 105.8833ms 200 
+2021-01-30 18:28:44.1835|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 189.0326ms 404 text/plain
+2021-01-30 18:28:44.2617|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:1028/favicon.ico  
+2021-01-30 18:28:44.2617|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 4.603ms 404 text/plain
+2021-01-30 18:28:46.9873|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:1028/api/cities/1/pointsofinterest/1  
+2021-01-30 18:28:47.0232|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "GetPointOfInterest", controller = "PointOfInterest"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetPointOfInterest(Int32, Int32) on controller CityInfo.API.Controllers.PointOfInterestController (CityInfo.API).
+2021-01-30 18:28:47.0443|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method CityInfo.API.Controllers.PointOfInterestController.GetPointOfInterest (CityInfo.API) - Validation state: Valid
+2021-01-30 18:28:47.0443|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method CityInfo.API.Controllers.PointOfInterestController.GetPointOfInterest (CityInfo.API), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 2.0651ms.
+2021-01-30 18:28:47.0616|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing ObjectResult, writing value of type 'CityInfo.API.Models.PointOfInterestDto'.
+2021-01-30 18:28:47.0999|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action CityInfo.API.Controllers.PointOfInterestController.GetPointOfInterest (CityInfo.API) in 70.1649ms
+2021-01-30 18:28:47.1034|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 116.3401ms 200 application/json; charset=utf-8
+2021-01-30 22:27:24.5523|INFO|CityInfo.API.Program|Initializing application...
+2021-01-30 22:27:25.7956|INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\udara\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-01-30 22:27:26.2942|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 DEBUG http://localhost:1028/  0
+2021-01-30 22:27:26.2942|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:1028/  
+2021-01-30 22:27:26.3263|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 32.9276ms 200 
+2021-01-30 22:27:26.4183|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 124.119ms 404 text/plain
+2021-01-30 22:27:26.5244|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:1028/favicon.ico  
+2021-01-30 22:27:26.5244|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 4.2682ms 404 text/plain
+2021-01-30 22:27:39.8042|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:1028/api/testdatabase  
+2021-01-30 22:27:39.8264|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "TestDatabase", controller = "Dummy"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult TestDatabase() on controller CityInfo.API.Controllers.DummyController (CityInfo.API).
+2021-01-30 22:27:40.1010|INFO|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 2.1.14-servicing-32113 initialized 'CityInfoContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2021-01-30 22:27:50.4826|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (227ms) [Parameters=[], CommandType='Text', CommandTimeout='60']
+CREATE DATABASE [CityInfoDB];
+2021-01-30 22:27:50.5510|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (66ms) [Parameters=[], CommandType='Text', CommandTimeout='60']
+IF SERVERPROPERTY('EngineEdition') <> 5
+BEGIN
+    ALTER DATABASE [CityInfoDB] SET READ_COMMITTED_SNAPSHOT ON;
+END;
+2021-01-30 22:27:50.5974|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (5ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE TABLE [Cities] (
+    [Id] int NOT NULL IDENTITY,
+    [Name] nvarchar(50) NOT NULL,
+    [Description] nvarchar(200) NULL,
+    CONSTRAINT [PK_Cities] PRIMARY KEY ([Id])
+);
+2021-01-30 22:27:50.6039|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (2ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE TABLE [PointsOfInterest] (
+    [Id] int NOT NULL IDENTITY,
+    [Name] nvarchar(50) NOT NULL,
+    [CityId] int NOT NULL,
+    CONSTRAINT [PK_PointsOfInterest] PRIMARY KEY ([Id]),
+    CONSTRAINT [FK_PointsOfInterest_Cities_CityId] FOREIGN KEY ([CityId]) REFERENCES [Cities] ([Id]) ON DELETE CASCADE
+);
+2021-01-30 22:27:50.6039|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (2ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE INDEX [IX_PointsOfInterest_CityId] ON [PointsOfInterest] ([CityId]);
+2021-01-30 22:27:50.6039|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method CityInfo.API.Controllers.DummyController.TestDatabase (CityInfo.API) - Validation state: Valid
+2021-01-30 22:27:50.6196|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method CityInfo.API.Controllers.DummyController.TestDatabase (CityInfo.API), returned result Microsoft.AspNetCore.Mvc.OkResult in 0.2539ms.
+2021-01-30 22:27:50.6196|INFO|Microsoft.AspNetCore.Mvc.StatusCodeResult|Executing HttpStatusCodeResult, setting HTTP status code 200
+2021-01-30 22:27:50.6196|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action CityInfo.API.Controllers.DummyController.TestDatabase (CityInfo.API) in 10795.2585ms
+2021-01-30 22:27:50.6196|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 10829.2961ms 200 
+2021-01-30 22:58:40.9910|INFO|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 2.1.14-servicing-32113 initialized 'CityInfoContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2021-01-30 23:01:53.4483|INFO|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 2.1.14-servicing-32113 initialized 'CityInfoContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2021-01-30 23:02:03.8026|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (235ms) [Parameters=[], CommandType='Text', CommandTimeout='60']
+CREATE DATABASE [CityInfoDB];
+2021-01-30 23:02:03.8628|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (58ms) [Parameters=[], CommandType='Text', CommandTimeout='60']
+IF SERVERPROPERTY('EngineEdition') <> 5
+BEGIN
+    ALTER DATABASE [CityInfoDB] SET READ_COMMITTED_SNAPSHOT ON;
+END;
+2021-01-30 23:02:03.8997|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (4ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE TABLE [__EFMigrationsHistory] (
+    [MigrationId] nvarchar(150) NOT NULL,
+    [ProductVersion] nvarchar(32) NOT NULL,
+    CONSTRAINT [PK___EFMigrationsHistory] PRIMARY KEY ([MigrationId])
+);
+2021-01-30 23:02:03.8997|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (3ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2021-01-30 23:02:03.8997|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2021-01-30 23:02:03.8997|INFO|Microsoft.EntityFrameworkCore.Migrations|Applying migration '20210130172841_CityInfoDBInitialMigration'.
+2021-01-30 23:02:03.9224|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE TABLE [Cities] (
+    [Id] int NOT NULL IDENTITY,
+    [Name] nvarchar(50) NOT NULL,
+    [Description] nvarchar(200) NULL,
+    CONSTRAINT [PK_Cities] PRIMARY KEY ([Id])
+);
+2021-01-30 23:02:03.9224|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (2ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE TABLE [PointsOfInterest] (
+    [Id] int NOT NULL IDENTITY,
+    [Name] nvarchar(50) NOT NULL,
+    [CityId] int NOT NULL,
+    CONSTRAINT [PK_PointsOfInterest] PRIMARY KEY ([Id]),
+    CONSTRAINT [FK_PointsOfInterest_Cities_CityId] FOREIGN KEY ([CityId]) REFERENCES [Cities] ([Id]) ON DELETE CASCADE
+);
+2021-01-30 23:02:03.9224|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE INDEX [IX_PointsOfInterest_CityId] ON [PointsOfInterest] ([CityId]);
+2021-01-30 23:02:03.9786|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (2ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+INSERT INTO [__EFMigrationsHistory] ([MigrationId], [ProductVersion])
+VALUES (N'20210130172841_CityInfoDBInitialMigration', N'2.1.14-servicing-32113');
+2021-01-30 23:07:12.0608|INFO|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 2.1.14-servicing-32113 initialized 'CityInfoContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2021-01-30 23:07:35.8692|INFO|CityInfo.API.Program|Initializing application...
+2021-01-30 23:07:36.8847|INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\udara\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-01-30 23:07:37.2989|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 DEBUG http://localhost:1028/  0
+2021-01-30 23:07:37.2989|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:1028/  
+2021-01-30 23:07:37.3452|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 42.9798ms 200 
+2021-01-30 23:07:37.4665|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 168.9465ms 404 text/plain
+2021-01-30 23:07:37.5568|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:1028/favicon.ico  
+2021-01-30 23:07:37.5568|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 6.5726ms 404 text/plain
+2021-01-30 23:08:30.0376|INFO|CityInfo.API.Program|Initializing application...
+2021-01-30 23:08:30.8916|INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\udara\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-01-30 23:08:31.4085|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 DEBUG http://localhost:1028/  0
+2021-01-30 23:08:31.4085|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:1028/  
+2021-01-30 23:08:31.4495|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 40.6959ms 200 
+2021-01-30 23:08:31.5530|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 146.0822ms 404 text/plain
+2021-01-30 23:08:31.6569|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:1028/favicon.ico  
+2021-01-30 23:08:31.6569|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 1.7823ms 404 text/plain
+2021-01-30 23:09:22.3477|INFO|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 2.1.14-servicing-32113 initialized 'CityInfoContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2021-01-30 23:09:22.4471|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (3ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2021-01-30 23:09:22.4471|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2021-01-30 23:09:22.4471|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2021-01-30 23:09:22.4665|INFO|Microsoft.EntityFrameworkCore.Migrations|Applying migration '20210130173712_CityInfoDBAddPoiDescription'.
+2021-01-30 23:09:22.4802|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (9ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+ALTER TABLE [PointsOfInterest] ADD [Description] nvarchar(max) NULL;
+2021-01-30 23:09:22.4802|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+INSERT INTO [__EFMigrationsHistory] ([MigrationId], [ProductVersion])
+VALUES (N'20210130173712_CityInfoDBAddPoiDescription', N'2.1.14-servicing-32113');
+2021-01-30 23:12:05.1360|INFO|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 2.1.14-servicing-32113 initialized 'CityInfoContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2021-01-30 23:12:17.6403|INFO|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 2.1.14-servicing-32113 initialized 'CityInfoContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2021-01-30 23:12:17.7244|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (2ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2021-01-30 23:12:17.7305|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2021-01-30 23:12:17.7305|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2021-01-30 23:12:17.7429|INFO|Microsoft.EntityFrameworkCore.Migrations|Applying migration '20210130174205_CityInfoDBPOIColumnDefinitionsChange'.
+2021-01-30 23:12:17.7756|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (27ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+DECLARE @var0 sysname;
+SELECT @var0 = [d].[name]
+FROM [sys].[default_constraints] [d]
+INNER JOIN [sys].[columns] [c] ON [d].[parent_column_id] = [c].[column_id] AND [d].[parent_object_id] = [c].[object_id]
+WHERE ([d].[parent_object_id] = OBJECT_ID(N'[PointsOfInterest]') AND [c].[name] = N'Description');
+IF @var0 IS NOT NULL EXEC(N'ALTER TABLE [PointsOfInterest] DROP CONSTRAINT [' + @var0 + '];');
+ALTER TABLE [PointsOfInterest] ALTER COLUMN [Description] nvarchar(200) NULL;
+2021-01-30 23:12:17.7756|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+INSERT INTO [__EFMigrationsHistory] ([MigrationId], [ProductVersion])
+VALUES (N'20210130174205_CityInfoDBPOIColumnDefinitionsChange', N'2.1.14-servicing-32113');
